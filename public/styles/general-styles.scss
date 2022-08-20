@@ -1,0 +1,104 @@
+$primary: #003459;
+$secondary: #00171f;
+$white: #ffffff;
+$light-secondary: #007ea7;
+$light-primary: #00a8e8;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: $white;
+  a {
+    text-decoration: none;
+  }
+}
+
+#header {
+  font-weight: 500;
+  // background-color: $light-secondary;
+  .logo {
+    padding-left: 3em;
+    img {
+      height: 7.3em;
+      transition: all 300ms;
+    }
+
+    img:hover {
+      transform: scale(1.3, 1.3);
+    }
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+.social-media {
+  ul {
+    list-style: none;
+  }
+
+  li {
+    transition: all 300ms;
+  }
+
+  li:hover {
+    svg {
+      fill: $primary;
+    }
+    transform: scale(1.2, 1.2);
+  }
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column-reverse;
+  align-content: flex-start;
+  background-color: $primary;
+  h4 {
+    font-size: 1.2em;
+    color: $white;
+    font-weight: 1.5em;
+  }
+
+  li {
+    transition: all 300ms;
+  }
+
+  li:hover {
+    transform: scale(1.1, 1.1);
+    background-color: $white;
+    h4 {
+      color: $light-secondary;
+    }
+  }
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+.footer-section {
+  display: grid;
+  background-color: $white;
+  height: 60vh;
+  // grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  img {
+    height: 10em;
+  }
+  .ubication {
+    background-color: $primary;
+    padding: 1em;
+    margin: 0px auto;
+    .map {
+      height: 50%;
+    }
+  }
+}
