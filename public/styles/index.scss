@@ -15,9 +15,9 @@ $light-primary: #00a8e8;
 }
 .main-presentation-content {
   width: 30em;
-  color: orange;
+  color: $secondary;
   h2 {
-    color: orange;
+    color: $secondary;
     font-size: 350%;
     font-weight: 900;
     letter-spacing: 5px;
