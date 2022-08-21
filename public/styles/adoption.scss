@@ -63,7 +63,6 @@ $light-primary: #00a8e8;
     .card {
       height: auto;
       margin-bottom: 0;
-      //   transition: all 300ms;
       img {
         height: 80%;
         object-fit: cover;
@@ -102,7 +101,6 @@ $light-primary: #00a8e8;
       }
     }
     .card:hover {
-      // display: inline-block;
       transform: scale(1.1, 1.1) !important;
       height: auto !important;
       background-color: $primary;
@@ -118,7 +116,7 @@ $light-primary: #00a8e8;
 
       .card-body {
         display: none !important;
-        background-color: #ffffff !important;
+        background-color: $white !important;
       }
     }
   }
