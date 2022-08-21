@@ -16,11 +16,11 @@ body {
 
 #header {
   font-weight: 500;
-  // background-color: $light-secondary;
+  height: auto;
   .logo {
     padding-left: 3em;
     img {
-      height: 7.3em;
+      height: 6.3em;
       transition: all 300ms;
     }
 
@@ -81,14 +81,12 @@ body {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
   background-color: #e9ecef;
-  // border-radius: 0.3rem;
 }
 
 .footer-section {
   display: grid;
   background-color: $white;
   height: 60vh;
-  // grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   img {
     height: 10em;

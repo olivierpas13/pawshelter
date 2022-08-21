@@ -4,6 +4,13 @@ $white: #ffffff;
 $light-secondary: #007ea7;
 $light-primary: #00a8e8;
 
+h2 {
+  font-weight: 900;
+  font-size: 290%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
 .card {
   text-shadow: 0px 0px 1px black;
   box-shadow: 0px 0px 4px black;

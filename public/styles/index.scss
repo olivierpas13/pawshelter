@@ -126,14 +126,16 @@ $light-primary: #00a8e8;
     h3 {
       font-size: 200% !important;
     }
+    .another-color-text {
+      color: $light-secondary !important;
+      text-shadow: 0px 0px 3px black !important;
+    }
 
-    h2:where(:hover, :focus-visible),
-    h3:where(:hover, :focus-visible) {
+    h2:where(:hover, :focus-visible) {
       background-size: 100% var(--bg-h);
       background-position-x: left;
     }
-    h2:hover,
-    h3:hover {
+    h2:hover {
       a {
         color: $white;
       }

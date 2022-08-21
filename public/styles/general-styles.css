@@ -10932,12 +10932,13 @@ body a {
 
 #header {
   font-weight: 500;
+  height: auto;
 }
 #header .logo {
   padding-left: 3em;
 }
 #header .logo img {
-  height: 7.3em;
+  height: 6.3em;
   transition: all 300ms;
 }
 #header .logo img:hover {

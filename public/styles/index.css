@@ -112,25 +112,24 @@
 .veterinary-section .veterinary-text h3 {
   font-size: 200% !important;
 }
-.veterinary-section .veterinary-text h2:where(:hover, :focus-visible),
-.veterinary-section .veterinary-text h3:where(:hover, :focus-visible) {
+.veterinary-section .veterinary-text .another-color-text {
+  color: #007ea7 !important;
+  text-shadow: 0px 0px 3px black !important;
+}
+.veterinary-section .veterinary-text h2:where(:hover, :focus-visible) {
   background-size: 100% var(--bg-h);
   background-position-x: left;
 }
-.veterinary-section .veterinary-text h2:hover,
-.veterinary-section .veterinary-text h3:hover {
+.veterinary-section .veterinary-text h2:hover {
   transform: scale(1.1, 1.1);
 }
-.veterinary-section .veterinary-text h2:hover a,
-.veterinary-section .veterinary-text h3:hover a {
+.veterinary-section .veterinary-text h2:hover a {
   color: #ffffff;
 }
-.veterinary-section .veterinary-text h2:hover .another-color-text,
-.veterinary-section .veterinary-text h3:hover .another-color-text {
+.veterinary-section .veterinary-text h2:hover .another-color-text {
   color: #ffffff !important;
 }
-.veterinary-section .veterinary-text h2:hover .second-text,
-.veterinary-section .veterinary-text h3:hover .second-text {
+.veterinary-section .veterinary-text h2:hover .second-text {
   color: #ffffff !important;
 }
 .veterinary-section .veterinary-text p {
