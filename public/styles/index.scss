@@ -17,20 +17,11 @@ $light-primary: #00a8e8;
   width: 30em;
   color: #00171f;
   h2 {
-    // box-shadow: inset 0 0 0 0 $primary;
-    // color: #54b3d6;
     color: $secondary;
-    // margin: 0 -0.25rem;
     font-size: 350%;
     font-weight: 900;
     letter-spacing: 5px;
     padding: 0 0.25rem;
-    transition: color 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
-    // transition: all 300ms;
-  }
-  h2:hover {
-    box-shadow: inset 10em 0 $primary;
-    color: white;
   }
 
   p {
@@ -40,9 +31,7 @@ $light-primary: #00a8e8;
 }
 
 .main-image {
-  // img {
   height: 100%;
-  // }
 }
 
 .available-pets {
