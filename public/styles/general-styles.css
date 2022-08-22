@@ -11007,5 +11007,11 @@ body a {
   margin: 0px auto;
 }
 .footer-section .ubication .map {
+  display: flex;
+  justify-content: center;
   height: 50%;
+}
+.footer-section .ubication .map iframe {
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=general-styles.css.map */

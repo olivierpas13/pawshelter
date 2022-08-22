@@ -96,7 +96,13 @@ body {
     padding: 1em;
     margin: 0px auto;
     .map {
+      display: flex;
+      justify-content: center;
       height: 50%;
+      iframe {
+        padding: 0;
+        margin: 0;
+      }
     }
   }
 }
